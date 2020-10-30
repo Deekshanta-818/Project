@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    max-width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./images/bikalpa-pokhrel-L4NA2qRqK0s-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+  
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0px;
+    background-color: black;
+    overflow: hidden;
+    
+}nav {
+    flex: 1;
+    text-align: right;
+}
+.link-name {
+    text-decoration: none;
+    font-family: 'Syne Tactile', cursive;
+    font-size: 20px;
+    color: coral;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 190, 104);
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px;
+}
+nav ul li a:hover {
+    border-bottom: 3px solid darkblue;
+    color: rgb(255, 190, 104);
+}
+.footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+}
+.footer small {
+    font-size: 20px;
+    color: yellowgreen;
+}
+
+.title {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+
+.text {
+    font-size: 30px;
+    line-height: 22px;
+    color: rgb(206, 201, 180);
+    text-align: center;
+    margin-top: 5%;
+}
+ .crimson {
+    color: blue;
+}
+.blue {
+    color: crimson;
+}
+
+@media (max-width:700px) {
+    .title {
+        font-size: 40px;
+    }
+    .text {
+        font-size: 20px;
+    }
+}
+.active {
+border: 3px solid rgb(65, 30, 224);}
+
+
+.jumbotron  {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.jumbotron-about {
+    background-image: url('./images/giuseppe-mondi-xyE1p1rG04U-unsplash.jpg');
+}
+.jumbotron-about h1 {
+    font-size: 50px;
+    color: thistle;
+}
+.about-text {
+    font-size: 25px;
+}
+.nep-img {
+    width: 100%;
+}
+.jumbotron-history {
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url('./images/history-of-nepal-780x405.jpg');
+}
+
+.jumbotron-history h1 {
+    color: rgba(98, 0, 255, 0.966);
+    font-size: 50px;
+}
+.history-text {
+    font-size: 25px;
+}
+.pr-img {
+    width: 100%;
+    height: 900px;
+}
+.jumbotron-tourist {
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.5)),url('./images/best-places-to-visit-in-Nepal.jpeg');
+}
+.jumbotron-tourist h1 {
+    font-size: 50px;
+    color: rgb(177, 24, 24);
+}
+.tourist-text {
+    font-size: 25px;
+}
+.card {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(221, 34, 34);
+    transition: transform .3s;
+}
+.card:hover {
+  transform: scale(1.1); 
+  }
+
+.jumbotron-festivals {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/festivals-cover.jpg');
+}
+.jumbotron-festivals h1 {
+    font-size: 50px;
+    color: rgb(157, 206, 93);
+}
+.festivals-text {
+    font-size: 25px;
+}
+#card-fest {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(137, 34, 221);
+    transition: transform .3s;
+}
